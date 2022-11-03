@@ -1,0 +1,38 @@
+body {
+    background-image: url('3e40ac9226d98fc121eacbb857c0f439.jpg');
+    font-family: Arial;
+    background-size: auto 100vh;
+    height: 100vh;
+}
+
+.menu {
+    background-color: rgba(85, 159, 255, 0.24);
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.site-subtitle,
+.site-title {
+    text-align: center;
+    color: rgb(0, 132, 169);
+}
+
+.site-subtitle {
+    font-style: italic;
+}
